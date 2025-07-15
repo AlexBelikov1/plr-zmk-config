@@ -126,22 +126,11 @@
         default_layer { // qwert
             display-name = "QWERT";
             bindings = <
-                &kp Q &kp W &kp E &kp R
-                &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L
-                &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMM &kp DOT &kp ENT
-                &kp TAB &kp ESC &kp LCTL &kp LALT &kp SPC &kp LEFT &kp DOWN &kp UP &kp RGHT &kp BSPC
-                &kp NUM &kp 1 &kp 2 &kp SPC &kp 3 &kp 4 &kp 5
-            >;
-        };
-
-        fn_layer { // fn
-            display-name = "FN";
-            bindings = <
-                &trans           &kp F1    &kp F2    &kp F3     &kp F4  &kp F5     &kp F6    &kp F7        &kp F8         &kp F9         &kp F10         &kp F11  &kp F12
-                &trans           &trans    &trans    &trans     &trans  &trans     &trans    &kp LA(LEFT)  &kp UP         &kp LA(RIGHT)  &trans          &trans   &trans
-                &tap_hyper 0 ESC &trans    &trans    &trans     &trans  &trans     &trans    &trans        &kp LEFT       &kp DOWN       &kp RIGHT       &trans   &trans
-                &trans           &trans    &trans    &trans     &trans  &trans     &trans    &trans        &kp LG(LEFT)   &trans         &kp LG(RIGHT)   &trans   &trans
-                &trans           &trans    &trans    &trans     &kp DEL &trans     &trans    &trans        &trans         &trans         &trans          &trans   &trans
+                &kp Q &kp W &kp E &kp R &trans &trans &trans &trans &trans &trans
+                &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &trans
+                &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp ENTER
+                &kp TAB &kp ESCAPE &kp LCTRL &kp LALT &kp SPACE &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BACKSPACE
+                &kp NUMLOCK &kp N1 &kp N2 &kp SPACE &kp N3 &kp N4 &kp N5 &trans &trans &trans
             >;
         };
     };
