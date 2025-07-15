@@ -3,7 +3,7 @@ id: dilly
 name: Dilly
 type: shield
 url: https://keeb.io/products/dilly-3x10-ortholinear-keyboard-for-kailh-choc-low-profile-switches
-requires: [pro_micro]
+requires: [nice_nano_v2]
 features:
   - keys
   - backlight
