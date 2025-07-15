@@ -17,7 +17,7 @@
                 &kp LSHIFT  &kp A    &kp S    &kp D    &kp F    &kp G       &kp H   &kp J   &kp K       &kp N1
                 &kp LCTRL   &kp Z    &kp X    &kp C    &kp V    &kp B       &kp N   &kp M   &kp DOT     &kp BSPC
                 &kp LGUI    &mo 2    &kp SPC  &mo 3    &kp LGUI &trans      &trans    &trans    &trans        &trans
-    >;
-};
+            >;
+        };
     };
 };
