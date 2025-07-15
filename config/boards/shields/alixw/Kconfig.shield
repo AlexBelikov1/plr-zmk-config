@@ -1,0 +1,2 @@
+config SHIELD_ALIXW
+    def_bool $(shields_list_contains,alixw)
