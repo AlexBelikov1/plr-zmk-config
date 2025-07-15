@@ -13,22 +13,22 @@
 
         wakeup-source;
 
-        row-gpios = <&gpio1 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>, //* D9 – LF */
-                    <&gpio1 5 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>, //* D8 – LF */
-                    <&gpio1 4 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>, //* D7 – HF */
-                    <&gpio0 24 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>,//* D6 – HF */
-                    <&gpio0 29 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;//* D5 – HF */
+        row-gpios = <&gpio1 106 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>, //* D9 – LF */
+                    <&gpio1 104 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>, //* D8 – LF */
+                    <&gpio1 11 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>, //* D7 – HF */
+                    <&gpio0 100 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>,//* D6 – HF */
+                    <&gpio0 24 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;//* D5 – HF */
 
-        col-gpios = <&gpio0 20 GPIO_ACTIVE_LOW>,  //* D4  – HF */
-                    <&gpio0 22 GPIO_ACTIVE_LOW>,  //* D3  – HF */
-                    <&gpio0 23 GPIO_ACTIVE_LOW>,  //* D2  – HF */
+        col-gpios = <&gpio0 22 GPIO_ACTIVE_LOW>,  //* D4  – HF */
+                    <&gpio0 20 GPIO_ACTIVE_LOW>,  //* D3  – HF */
+                    <&gpio0 17 GPIO_ACTIVE_LOW>,  //* D2  – HF */
                     <&gpio0 10 GPIO_ACTIVE_LOW>,  //* D16 – LF */
-                    <&gpio0 9  GPIO_ACTIVE_LOW>,  //* D14 – LF */
-                    <&gpio1 7  GPIO_ACTIVE_LOW>,  //* D15 – LF */
-                    <&gpio1 13 GPIO_ACTIVE_LOW>,  //* D18 – LF */
-                    <&gpio1 15 GPIO_ACTIVE_LOW>,  //* D19 – LF */
-                    <&gpio0 11 GPIO_ACTIVE_LOW>,  //* D20 – LF */
-                    <&gpio0 12 GPIO_ACTIVE_LOW>;  //* D21 – LF */
+                    <&gpio0 111 GPIO_ACTIVE_LOW>,  //* D14 – LF */
+                    <&gpio1 113 GPIO_ACTIVE_LOW>,  //* D15 – LF */
+                    <&gpio1 115 GPIO_ACTIVE_LOW>,  //* D18 – LF */
+                    <&gpio1 2 GPIO_ACTIVE_LOW>,  //* D19 – LF */
+                    <&gpio0 29 GPIO_ACTIVE_LOW>,  //* D20 – LF */
+                    <&gpio0 31 GPIO_ACTIVE_LOW>;  //* D21 – LF */
     };
 
     default_transform: matrix_transform {
