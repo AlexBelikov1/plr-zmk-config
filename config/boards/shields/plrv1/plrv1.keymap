@@ -5,6 +5,7 @@
 #define QWERT 0
 #define FUNC  1
 
+/
 keymap {
     compatible = "zmk,keymap";
 
