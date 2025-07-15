@@ -1,7 +1,7 @@
-if SHIELD_ALIXW
+if SHIELD_PLRV1
 
 config ZMK_KEYBOARD_NAME
-    default "alixw"
+    default "plrv1"
 
 if ZMK_DISPLAY
 
