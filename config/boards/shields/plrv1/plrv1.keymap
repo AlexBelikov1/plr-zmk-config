@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define QWERT 0
-
+#define FUNC  1
 
 / {
     keymap {
@@ -12,12 +12,24 @@
         default_layer { // qwert
             display-name = "QWERT";
             bindings = <
-                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &trans &trans &trans &trans &trans
-                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1
-                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1
-                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1
-                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &trans &trans &trans &trans &trans
+                &kp TAB     &kp N1   &kp N2   &kp N3   &kp N4   &trans   &trans  &trans  &trans      &trans
+                &kp CAPS    &kp Q    &kp W    &kp E    &kp R    &kp T     &kp Y   &kp U   &kp I       &trans
+                &kp LSHIFT  &kp A    &kp S    &kp D    &kp F    &kp G     &kp H   &kp J   &kp K       &kp N1
+                &kp LCTRL   &kp Z    &kp X    &kp C    &kp V    &kp B     &kp N   &kp M   &kp COMMA   &kp DOT
+                &kp LGUI    &mo 1    &kp SPC  &mo 1    &kp LGUI &kp BSPC  &trans  &trans  &trans      &trans
+    >;
+};
+
+        fn_layer {
+            display-name = "FUNC";
+            bindings = <
+                &kp TAB     &kp N5  &kp N6  &kp N7  &kp N8  &trans  trans   &trans  &trans      &trans
+                &kp CAPS    &kp Q   &kp W   &kp E   &kp R   &kp N9   &kp N0   &kp O   &kp P       &trans
+                &kp LSHIFT  &kp A   &kp S   &kp D   &kp F   &kp G   &kp H   &kp J   &kp K       &kp N1
+                &kp LCTRL   &kp Z   &kp X   &kp C   &kp V   &kp B   &kp N   &kp M   &kp COMMA   &kp DOT
+                &kp LGUI    &kp     &kp     &kp     &kp     &trans  &trans  &trans  &trans      &trans
             >;
         };
+
     };
 };
