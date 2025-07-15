@@ -126,11 +126,11 @@
         default_layer { // qwert
             display-name = "QWERT";
             bindings = <
-                &kp Q &kp W &kp E &kp R &trans &trans &trans &trans &trans &trans
-                &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &trans
-                &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp ENTER
-                &kp TAB &kp ESCAPE &kp LCTRL &kp LALT &kp SPACE &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BACKSPACE
-                &kp NUMLOCK &kp N1 &kp N2 &kp SPACE &kp N3 &kp N4 &kp N5 &trans &trans &trans
+                &kp N1 &kp N2 &kp N3 &kp N4 &trans &trans &trans &trans &trans &trans
+                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &trans
+                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1
+                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1
+                &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &kp N1 &trans &trans &trans
             >;
         };
     };
