@@ -123,18 +123,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // colemak
-            display-name = "COLEMAK";
-            bindings = <
-                &kp GRAVE      &kp N1    &kp N2    &kp N3     &kp N4   &kp N5     &kp N6                   &kp N7    &kp N8    &kp N9     &kp N0   &kp MINUS  &kp EQUAL
-                &kp TAB        &kp Q     &kp W     &kp F      &kp P    &kp G      &kp J                    &kp L     &kp U     &kp Y      &kp SEMI &kp LBKT   &kp RBKT
-                &tap_meh 0 ESC &kp A     &kp R     &kp S      &kp T    &kp D      &kp BSLH                 &kp H     &kp N     &kp E      &kp I    &kp O      &kp SQT
-                &kp LSHFT      &kp Z     &kp X     &kp C      &kp V    &kp B      &mo APP                  &kp K     &kp M     &kp COMMA  &kp DOT  &kp SLASH  &kp RSHFT
-                &kp LCTRL      &kp LALT  &kp LGUI  &kp SPACE  &kp BSPC &tog QWERT &tap_hold_layer FN SPACE &kp RGUI  &kp RALT  &kp RCTRL  &tog FN  &mo CONF   &kp ENTER
-            >;
-        };
-
-        qwert_layer { // qwert
+        default_layer { // qwert
             display-name = "QWERT";
             bindings = <
                 &kp GRAVE      &kp N1    &kp N2    &kp N3     &kp N4   &kp N5     &kp N6                   &kp N7    &kp N8    &kp N9     &kp N0   &kp MINUS  &kp EQUAL
@@ -153,28 +142,6 @@
                 &tap_hyper 0 ESC &trans    &trans    &trans     &trans  &trans     &trans    &trans        &kp LEFT       &kp DOWN       &kp RIGHT       &trans   &trans
                 &trans           &trans    &trans    &trans     &trans  &trans     &trans    &trans        &kp LG(LEFT)   &trans         &kp LG(RIGHT)   &trans   &trans
                 &trans           &trans    &trans    &trans     &kp DEL &trans     &trans    &trans        &trans         &trans         &trans          &trans   &trans
-            >;
-        };
-
-        app_layer { // app
-            display-name = "APP";
-            bindings = <
-                &trans   &kp C_BRI_DEC  &kp C_BRI_INC  &kp F3  &kp F4  &kp F5  &kp F6   &kp C_PREV  &kp C_PP  &kp C_NEXT  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
-                &trans   &trans         &trans         &trans  &trans  &trans  &trans   &trans      &trans    &trans      &trans      &trans        &trans
-                &kp CAPS &trans         &trans         &trans  &trans  &trans  &trans   &trans      &trans    &trans      &trans      &trans        &trans
-                &trans   &trans         &trans         &trans  &trans  &trans  &trans   &trans      &trans    &trans      &trans      &trans        &trans
-                &trans   &trans         &trans         &trans  &trans  &trans  &trans   &trans      &trans    &trans      &trans      &trans        &trans
-            >;
-        };
-
-        conf_layer { // config
-            display-name = "CONF";
-            bindings = <
-                &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none  &none  &none  &none  &none  &none  &none  &bootloader
-                &none       &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none  &none
-                &none       &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none  &none
-                &none       &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none  &none
-                &none       &none         &none         &none         &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
     };
