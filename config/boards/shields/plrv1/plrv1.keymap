@@ -15,8 +15,8 @@
                 &kp TAB     &kp N1   &kp N2   &kp N3   &kp N4   &kp N1   &kp N2  &kp N3  &kp N4      &kp N5
                 &kp CAPS    &kp Q    &kp W    &kp E    &kp R    &kp T     &kp Y   &kp U   &kp I       &kp O
                 &kp LSHIFT  &kp A    &kp S    &kp D    &kp F    &kp G     &kp H   &kp J   &kp K       &kp P
-                &kp LCTRL   &kp Z    &kp X    &kp C    &kp V    &kp B     &kp N   &kp M   &kp COMMA   &kp DOT
-                &kp LGUI    &mo 1    &kp SPC  &mo 1    &kp LGUI &kp BSPC  &kp N9  &kp N8  &kp N7     &kp N6
+                &kp LCTRL   &kp Z    &kp X    &kp C    &kp V    &kp B     &kp N   &kp BSPC   &kp COMMA   &kp DOT
+                &kp LGUI    &kp L    &kp SPC  &kp M    &kp LGUI &kp M  &kp N9  &kp N8  &kp N7     &kp N6
             >;
         };
 
