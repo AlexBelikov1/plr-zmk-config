@@ -47,3 +47,20 @@
         };
     };
 };
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // qwert
+            display-name = "QWERT";
+            bindings = <
+                &kp TAB     &kp N1   &kp N2   &kp N3   &kp N4   &trans      &trans  &trans  &trans      &trans
+                &kp CAPS    &kp Q    &kp W    &kp E    &kp R    &kp T       &kp Y   &kp U   &kp I       &trans
+                &kp LSHIFT  &kp A    &kp S    &kp D    &kp F    &kp G       &kp H   &kp J   &kp K       &kp N1
+                &kp LCTRL   &kp Z    &kp X    &kp C    &kp V    &kp B       &kp N   &kp M   &kp DOT     &kp BSPC
+                &kp LGUI    &mo 2    &kp SPC  &mo 3    &kp LGUI &trans      &trans    &trans    &trans        &trans
+            >;
+        };
+    };
+};
