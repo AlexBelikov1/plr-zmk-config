@@ -1,6 +1,0 @@
-
-# Copyright (c) 2021 purple-rw
-# SPDX-License-Identifier: MIT
-
-config SHIELD_PLRV1
-    def_bool $(shields_list_contains,plrv1)
