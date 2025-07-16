@@ -29,7 +29,7 @@
             <&gpio1 15 GPIO_ACTIVE_HIGH>,   // D18 – LF – P1.15
             <&gpio1 13 GPIO_ACTIVE_HIGH>,   // D15 – LF – P1.13
             <&gpio1 11 GPIO_ACTIVE_HIGH>,   // D14 – LF – P1.11
-            <&gpio0 10 GPIO_ACTIVE_HIGH>,   // D16 – HF – P0.10
+            <&gpio0 10 GPIO_ACTIVE_HIGH>;   // D16 – HF – P0.10
     };
 
     default_transform: matrix_transform {
