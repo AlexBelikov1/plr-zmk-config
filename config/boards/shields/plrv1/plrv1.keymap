@@ -16,7 +16,7 @@
                 &kp CAPS    &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp L
                 &kp LSHIFT  &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp P
                 &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp O       &kp BSPC
-                                        &kp LGUI    &mo 1       &kp SPACE               &mo 2       &kp LGUI
+                &kp 1       &kp 2       &kp 3       &kp 4       &kp 5       &kp 6       &kp 7       &kp 8       &kp 9       &kp 0
         >;
     };
 };
