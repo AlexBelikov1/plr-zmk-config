@@ -12,12 +12,13 @@
         default_layer { // Debug Layer
             display-name = "DEBUG";
             bindings = <
-                &kp KC_1    &kp KC_2    &kp KC_3    &kp KC_4    &kp KC_5    &kp KC_6    &kp KC_7    &kp KC_8    &kp KC_9    &kp KC_0
-                &kp KC_F1   &kp KC_F2   &kp KC_F3   &kp KC_F4   &kp KC_F5   &kp KC_F6   &kp KC_F7   &kp KC_F8   &kp KC_F9   &kp KC_F10
-                &kp KC_Q    &kp KC_W    &kp KC_E    &kp KC_R    &kp KC_T    &kp KC_Y    &kp KC_U    &kp KC_I    &kp KC_O    &kp KC_P
-                &kp KC_A    &kp KC_S    &kp KC_D    &kp KC_F    &kp KC_G    &kp KC_H    &kp KC_J    &kp KC_K    &kp KC_L    &kp KC_ENTER
-                &kp KC_Z    &kp KC_X    &kp KC_C    &kp KC_V    &kp KC_B    &kp KC_N    &kp KC_M    &kp KC_DOT  &kp KC_SLSH &kp KC_BSPC
-            >;
-        };
+                &kp N1       &kp N2       &kp N3       &kp N4       &kp N5       &kp N6       &kp N7       &kp N8       &kp N9       &kp N0
+                &kp F1      &kp F2      &kp F3      &kp F4      &kp F5      &kp F6      &kp F7      &kp F8      &kp F9      &kp F10
+                &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y       &kp U       &kp I       &kp O       &kp P
+                &kp A       &kp S       &kp D       &kp F       &kp G       &kp H       &kp J       &kp K       &kp L       &kp RET
+                &kp Z       &kp X       &kp C       &kp V       &kp B       &kp N       &kp M       &kp DOT     &kp SLASH   &kp BSPC
+        >;
     };
+};
+
 };
