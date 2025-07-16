@@ -25,7 +25,7 @@
             <&gpio0 17 GPIO_ACTIVE_HIGH>,   // D2  – LF – P0.17
             <&gpio0 31 GPIO_ACTIVE_HIGH>;   // D21 – LF – P0.31
             <&gpio0 29 GPIO_ACTIVE_HIGH>,   // D20 – LF – P0.29
-            <&gpio0 2 GPIO_ACTIVE_HIGH>,    // D19 – LF – P0.02
+            <&gpio0 2  GPIO_ACTIVE_HIGH>,   // D19 – LF – P0.02
             <&gpio1 15 GPIO_ACTIVE_HIGH>,   // D18 – LF – P1.15
             <&gpio1 13 GPIO_ACTIVE_HIGH>,   // D15 – LF – P1.13
             <&gpio1 11 GPIO_ACTIVE_HIGH>,   // D14 – LF – P1.11
